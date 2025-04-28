@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marca Tiendas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fondoNav">
+            <div class="container-fluid">
+              <a class="navbar-brand colorenlace" href="../index.html">Marca</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link colorenlace" href="../pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorenlace" href="../pages/tiendas.html">Tiendas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorenlace" href="../pages/quienessomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorenlace" href="../pages/guiadetalles.html">Guia de talles</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="d-flex justify-content-center titulos">TIENDAS</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4 rowtiendas">
+          <div class="col">
+            <div class="cardtiendas">
+              <img src="../assets/img/marcalocalbuenosaires.jpg" class="card-img-top" alt="local de ropa ubicado en buenos aires">
+              <div class="card-body">
+                <p class="card-title cardubicacion">Av. Dorrego 2741, Palermo, Buenos Aires</p>
+                <p class="card-text">En el corazón vibrante de Palermo, sobre la clásica Av. Dorrego, se esconde un local único en el número 2741. Apenas cruzás la puerta, sentís que entras en otro mundo: techos altos, paredes de ladrillo a la vista y un aroma suave a incienso y café de especialidad flotando en el aire.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="cardtiendas">
+              <img src="../assets/img/marcalocalrosario.jpg" class="card-img-top" alt="local de ropa ubicado en rosario">
+              <div class="card-body">
+                <p class="card-title cardubicacion">San Martín 1440, Rosario, Santa Fe</p>
+                <p class="card-text">San Martín 1440 no es solo una tienda: es una experiencia streetwear pensada para quienes viven la ciudad a su manera. El frente, minimalista pero con identidad, tiene una gran puerta negra mate y un logo discreto en relieve, casi como un guiño a los que saben.</p>
+              </div>
+            </div>
+          </div>     
+        </div>
+    </main>
+    
+    <footer>
+      <p class="d-flex justify-content-center suscripcion">Suscribite a nuestra comunidad</p>
+      <form class="w-75 w-lg-25 mx-auto formulario">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Deseo recibir novedades</label>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+      </form>
+      <div class="social-icons w-75 w-md-50 w-lg-25 mx-auto mt-4 d-flex justify-content-center gap-3">
+        <img src="../assets/img/instagram.png" alt="Instagram" class="icono-red">
+        <img src="../assets/img/facebook.png" alt="Facebook" class="icono-red">
+        <img src="../assets/img/whatsapp.png" alt="Whatsapp" class="icono-red">
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

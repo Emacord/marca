@@ -1,0 +1,193 @@
+.fondoNav {
+    background-color: #000; 
+    padding: 10px 0; 
+}
+
+.colorenlace {
+    color: #fff !important; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+.colorenlace:hover {
+    color: #ccc !important; 
+}
+
+.navbar-nav {
+    margin-left: auto; 
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: #fff; 
+}
+
+
+
+
+.productosdestacados {
+    transition: transform 0.3s, box-shadow 0.3s; 
+    margin-bottom: 30px;
+}
+
+.productosdestacadosfondo {
+    background-color: #f5f5f5; 
+    padding: 40px 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.productosdestacadostitulo {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.productosdestacados:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    color: #555; 
+}
+
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.suscripcion {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    
+}
+
+form {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 40px; 
+    height: 40px;
+    transition: transform 0.3s; 
+    cursor: pointer;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); 
+}
+
+.formulario {
+    max-width: 400px; 
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+
+
+.productos {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+}
+
+.titulos {
+    font-size: 48px; 
+    font-weight: bold;
+    margin: 40px 0; 
+    color: #333; 
+    letter-spacing: 2px;
+}
+
+.rowtiendas {
+    padding: 20px;
+}
+
+.cardtiendas {
+    border: none; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cardtiendas:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+}
+
+.cardubicacion {
+    font-size: 18px;
+}
+
+
+
+
+.quienessomosmain {
+    max-width: 800px; 
+    margin: 40px auto; 
+    padding: 20px;
+}
+
+.quienessomosparrafo {
+    text-align: justify; 
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8; 
+}
+
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.productos-grid article {
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productos-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+
+@media (max-width: 768px) {
+.productos-grid {
+    grid-template-columns: 1fr;
+    }
+}
