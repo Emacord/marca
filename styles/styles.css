@@ -4,14 +4,14 @@
 }
 
 .colorenlace {
-    color: #fff !important; 
+    color: #fff; 
     font-weight: bold;
     text-transform: uppercase; 
     letter-spacing: 1px; 
 }
 
 .colorenlace:hover {
-    color: #ccc !important; 
+    color: #ccc; 
 }
 
 .navbar-nav {
