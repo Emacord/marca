@@ -1,5 +1,5 @@
 .fondoNav {
-  background-color: #810671;
+  background-color: #640cac;
   padding: 10px 0;
 }
 .fondoNav .navbar-nav {
@@ -10,10 +10,10 @@
   font-weight: bold;
 }
 .fondoNav .navbar-toggler {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .fondoNav .colorenlace {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -32,7 +32,7 @@
 }
 
 .productosdestacadosfondo {
-  background-color: #f0f0f3;
+  background-color: #f5f5f5;
   padding: 40px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -41,8 +41,8 @@
 .productosdestacadostitulo,
 .suscripcion,
 .productos {
-  background-color: #810671;
-  color: #fff;
+  background-color: #640cac;
+  color: #ffffff;
   padding: 10px;
 }
 
@@ -62,7 +62,7 @@
   margin-top: 10px;
   background-color: #8830cf;
   border-color: #8830cf;
-  color: #fff;
+  color: #ffffff;
 }
 .btn-primary:hover {
   background-color: #35084b;
@@ -73,7 +73,7 @@
   font-size: 48px;
   font-weight: bold;
   margin: 40px 0;
-  color: #222;
+  color: #8830cf;
   letter-spacing: 2px;
 }
 
@@ -143,7 +143,7 @@ form {
 .btn-accent {
   background-color: #ff5722;
   border-color: #ff5722;
-  color: #fff;
+  color: #ffffff;
 }
 .btn-accent:hover {
   background-color: #e64a19;

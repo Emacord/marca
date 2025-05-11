@@ -20,7 +20,7 @@
 .productosdestacadostitulo,
 .suscripcion,
 .productos {
-    background-color: $black;
+    background-color: $violet;
     color: $white;
     padding: 10px;
 }
@@ -49,10 +49,11 @@
     }
 }
 
+
 .titulos {
     font-size: 48px;
     font-weight: bold;
     margin: 40px 0;
-    color: $gray-dark;
+    color: $primary;
     letter-spacing: 2px;
 }
