@@ -1,0 +1,22 @@
+@use 'variables' as *;
+
+.rowtiendas {
+    padding: 20px;
+}
+
+.cardtiendas {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+    transform: translateY(-5px);
+    box-shadow: $shadow-hover;
+    }
+}
+
+.cardubicacion {
+    font-size: 18px;
+}

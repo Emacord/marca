@@ -1,0 +1,14 @@
+@use 'variables' as *;
+
+.quienessomosmain {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.quienessomosparrafo {
+    text-align: justify;
+    font-size: 18px;
+    color: $text-muted;
+    line-height: 1.8;
+}
