@@ -1,0 +1,20 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.cardtiendas {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: $card-shadow;
+    @include card-hover;
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    color: $text-muted;
+}

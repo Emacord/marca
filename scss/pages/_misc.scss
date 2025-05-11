@@ -1,0 +1,79 @@
+@use '../abstracts/variables' as *;
+
+.rowtiendas {
+    padding: 20px;
+}
+
+.cardubicacion {
+    font-size: 18px;
+}
+
+.quienessomosmain {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.quienessomosparrafo {
+    text-align: justify;
+    font-size: 18px;
+    color: $text-muted;
+    line-height: 1.8;
+}
+
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+
+    img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+    cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.formulario {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.productosdestacados {
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 30px;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: $card-hover-shadow;
+    }
+}
+
+.productosdestacadosfondo {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: $card-shadow;
+}
+
+.productosdestacadostitulo,
+.suscripcion,
+.productos {
+    background-color: $nav-bg;
+    color: #ffffff;
+    padding: 10px;
+}

@@ -1,0 +1,9 @@
+@use '../abstracts/variables' as *;
+
+.titulos {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 40px 0;
+    color: $title-color;
+    letter-spacing: 2px;
+}

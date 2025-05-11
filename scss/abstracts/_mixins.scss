@@ -1,0 +1,21 @@
+@use 'variables' as *;
+
+@mixin btn-style($bg, $hover) {
+    background-color: $bg;
+    border-color: $bg;
+    color: #fff;
+
+    &:hover {
+    background-color: $hover;
+    border-color: $hover;
+    }
+}
+
+@mixin card-hover {
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+    transform: translateY(-5px);
+    box-shadow: $card-hover-shadow;
+    }
+}

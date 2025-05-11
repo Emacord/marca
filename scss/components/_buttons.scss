@@ -1,0 +1,12 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.btn-primary {
+    @include btn-style($primary-color, $primary-hover);
+    display: block;
+    margin: 10px auto 0;
+}
+
+.btn-accent {
+    @include btn-style($accent-color, $accent-hover);
+}
