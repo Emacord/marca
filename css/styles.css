@@ -98,6 +98,15 @@
   letter-spacing: 2px;
 }
 
+.tituloquienessomos {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #8830cf;
+  letter-spacing: 2px;
+  line-height: 1.1;
+}
+
 .rowtiendas {
   padding: 20px;
 }
